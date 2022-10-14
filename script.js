@@ -7,14 +7,14 @@ let parolaUtente = document.getElementById('parolaUtente');
 palindroma.addEventListener('click', function(){ 
 let palindroma = parolaUtente.split('').reverse().join('');
 console.log(palindroma);
-}  
+} ) 
 
 if (parolaUtente == palindroma){
     console.log('la parola è palindroma');
-    document.getElementById(risultato).innerHTML = 'la parola è palindroma'
+    risultato.innerHTML = 'la parola è palindroma'
 } else {
     console.log('la parola non è palindroma');
-    document.getElementById(risultato).innerHTML = 'la parola non è palindroma'
+    risultato.innerHTML = 'la parola non è palindroma'
   }
   
 
