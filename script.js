@@ -9,19 +9,19 @@ let parolaUtente = document.getElementById('parolaUtente');
 let palindroma = document.getElementById('palindroma');
 
 // funzione che inizia con un evento
-
 palindroma.addEventListener('click', function(){ 
-let palindroma = parolaUtente.split('').reverse().join('');
-console.log(palindroma);
+let palindroma = parolaUtente.value.split('').reverse().join('');
+/* console.log(palindroma); */
 } ) 
+
 //stampa se è vero o falso
-/* 
 if (parolaUtente == palindroma){
-        risultato.innerHTML = 'la parola è palindroma'
+        console.log('la parola è palindroma')
 } else {
-        risultato.innerHTML = 'la parola non è palindroma'
-  } */
-  
+        console.log('la parola non è palindroma')
+  }   
+
+  /* NON FUNZIONA MI SA SEMPRE CHE NON è PALINDROMA */
 
 
 
