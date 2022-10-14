@@ -2,20 +2,23 @@
 Creare una funzione per capire se la parola inserita è palindroma
  */
 
-let parolaUtente = document.getElementById('parolaUtente');
 
+
+//chiedo di inserire una parola
+let parolaUtente = document.getElementById('parolaUtente');
+// funzione che inizia con click
 palindroma.addEventListener('click', function(){ 
 let palindroma = parolaUtente.split('').reverse().join('');
 console.log(palindroma);
 } ) 
-
+/* 
 if (parolaUtente == palindroma){
     console.log('la parola è palindroma');
     risultato.innerHTML = 'la parola è palindroma'
 } else {
     console.log('la parola non è palindroma');
     risultato.innerHTML = 'la parola non è palindroma'
-  }
+  } */
   
 
 
