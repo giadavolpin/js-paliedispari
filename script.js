@@ -5,15 +5,15 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 
 //chiedo di inserire una parola
-let parolaUtente = document.getElementById('parolaUtente').value;
+let paroUtente = document.getElementById('parolaUtente').value;
 let button = document.querySelector('palindroma');
 
 // funzione che inizia con un evento
 palindroma.addEventListener('click', function(){ 
-        return parolaUtente.value.split('').reverse().join(''); 
-console.log(parola);
+        let parolaUtenteInvertita = paroUtente.split('').reverse().join(''); 
+console.log(parolaUtenteInvertita);
 //stampa se è vero o falso
-if (parolaUtente == palindroma){
+if (parolaUtenteInvertita === paroUtente){
         console.log('la parola è palindroma')
 } else {
         console.log('la parola non è palindroma')
@@ -22,7 +22,7 @@ if (parolaUtente == palindroma){
 } ) 
 
 
- console.log(parola)
+/*  console.log(parolaUtenteInvertita) */
 //PROBLEMI CON PAROLE SPLIT REVERSE E JOIN
 
 
