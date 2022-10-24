@@ -5,11 +5,12 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 
 //chiedo di inserire una parola
-let paroUtente = document.getElementById('parolaUtente').value;
+/* let paroUtente = document.getElementById('parolaUtente').value; */
 let button = document.querySelector('palindroma');
 
 // funzione che inizia con un evento
 palindroma.addEventListener('click', function(){ 
+        let paroUtente = document.getElementById('parolaUtente').value;
         let parolaUtenteInvertita = paroUtente.split('').reverse().join(''); 
 console.log(parolaUtenteInvertita);
 //stampa se è vero o falso
