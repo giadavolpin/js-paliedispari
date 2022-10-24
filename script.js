@@ -12,7 +12,7 @@ let button = document.querySelector('palindroma');
 palindroma.addEventListener('click', function(){ 
         let paroUtente = document.getElementById('parolaUtente').value;
         let parolaUtenteInvertita = paroUtente.split('').reverse().join(''); 
-console.log(parolaUtenteInvertita);
+
 //stampa se è vero o falso
 if (parolaUtenteInvertita === paroUtente){
         console.log('la parola è palindroma')
@@ -23,8 +23,7 @@ if (parolaUtenteInvertita === paroUtente){
 } ) 
 
 
-/*  console.log(parolaUtenteInvertita) */
-//PROBLEMI CON PAROLE SPLIT REVERSE E JOIN
+
 
 
 
